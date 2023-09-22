@@ -1,7 +1,6 @@
 #configure.sh VNC_USER_PASSWORD VNC_PASSWORD NGROK_AUTH_TOKEN
 
 brew install cask
-brew install --cask airtable
 
 
 #disable spotlight indexing
@@ -30,7 +29,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 #install ngrok
-brew --cask install ngrok
+brew install --cask ngrok
 
 #configure ngrok and start it
 ngrok authtoken $3
