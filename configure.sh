@@ -1,5 +1,9 @@
 #configure.sh VNC_USER_PASSWORD VNC_PASSWORD NGROK_AUTH_TOKEN
 
+brew install cask
+brew install --cask airtable
+
+
 #disable spotlight indexing
 sudo mdutil -i off -a
 
